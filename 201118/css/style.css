@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#header {z-index:3;position:fixed;top:0;left:0;width:100%;height:153px;}
+#header .h-wrap {width:100%;height:100%;}
+#header .h-wrap .h-row1 {width:100%;height:/* 임시 */90px;background:#fff;}
+#header .h-wrap .h-row1 .h-gap-r1 {width:/* 1400px */73.5681%;height:100%;background:rgba(116,116,116, .2);margin:0 auto;}
+#header .h-wrap .h-row2 {width:100%;height:63px;background:rgb(114,114,114);}
+#header .h-wrap .h-row2 .h-gap-r2{width:/* 1400px */73.5681%;height:100%;background:rgba(230, 224, 224, .2);margin:0 auto;}
+
+
+#main   {z-index:2;position:relative;top:153px;width:100%;/* 임시높이 */height:1000px;}
+#main #section01 {width:100%;/* 임시높이 */height:550px;position:relative;}
+#main #section01 .slide-container {width:100%;height:100%;position:relative;}
+#main #section01 .slide-container .slide-view {width:100%;height:100%;position:relative;}
+#main #section01 .slide-container .slide-view .slide-wrap {width:100%;height:100%;position:relative;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide  {width:100%;height:100%;position:absolute;top:0;left:0;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide0 {z-index:5;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide1 {z-index:4;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide2 {z-index:3;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide3 {z-index:2;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide4 {z-index:1;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide  div {width:100%;height:100%;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide0 div {background:url(../img/20201103114517526FJ.jpg) no-repeat 50% 50%;background-size:cover;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide1 div {background:url(../img/20201109134804104DK.jpg) no-repeat 50% 50%;background-size:cover;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide2 div {background:url(../img/20201029143656469EB.jpg) no-repeat 50% 50%;background-size:cover;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/20191021102858761LT.jpg) no-repeat 50% 50%;background-size:cover;}
+#main #section01 .slide-container .slide-view .slide-wrap .slide4 div {background:url(../img/20201021173115762ZI.jpg) no-repeat 50% 50%;background-size:cover;}
+
+#main .s1-2-gap {width:100%;height:87px;border-bottom:1px solid rgb(225,224,225);}
+
+#footer {z-index:1;position:relative;width:100%;}
